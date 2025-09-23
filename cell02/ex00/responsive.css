@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 50%;
+  height: 150px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.left {
+  background-color: lightgreen;
+}
+
+.right {
+  background-color: pink;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  table, tr, td {
+    display: block;
+    width: 100%;
+  }
+  td {
+    height: auto;
+    padding: 10px;
+  }
+}
