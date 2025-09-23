@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: 3px solid #000000; ;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
