@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Change Background</title>
+  <link rel="stylesheet" href="background.css">
+</head>
+<body>
+  <button id="changeColorBtn">Change Background</button>
+
+  <script>
+    const button = document.getElementById('changeColorBtn');
+
+    button.addEventListener('click', () => {
+      const randomColor = `rgb(${rand()}, ${rand()}, ${rand()})`;
+      document.body.style.backgroundColor = randomColor;
+    });
+
+    function rand() {
+      return Math.floor(Math.random() * 256);
+    }
+  </script>
+</body>
+</html>
